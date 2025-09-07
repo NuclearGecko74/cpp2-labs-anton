@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MODULO 1", "MODULO 1", "{02
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-1.0.08-restricting-access-to-object-data", "MODULO 1\lab-1.0.08-restricting-access-to-object-data\lab-1.0.08-restricting-access-to-object-data.vcxproj", "{C21FBC9A-7B4A-424C-AA47-E741F0ACA763}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-1.0.09-obtaining-derived-data-from-an-object", "lab-1.0.09-obtaining-derived-data-from-an-object\lab-1.0.09-obtaining-derived-data-from-an-object.vcxproj", "{C4CC8FFB-5C48-4B01-88DE-E611626B9DF4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-1.0.09-obtaining-derived-data-from-an-object", "MODULO 1\lab-1.0.09-obtaining-derived-data-from-an-object\lab-1.0.09-obtaining-derived-data-from-an-object.vcxproj", "{FD3212C9-EC6D-4CC4-94D9-6EFF6F128194}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-1.0.10-classes-and-objects-shopitemorder", "MODULO 1\lab-1.0.10-classes-and-objects-shopitemorder\lab-1.0.10-classes-and-objects-shopitemorder.vcxproj", "{201BDB86-51AC-43C1-AF0C-D41E0B910819}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,14 +37,22 @@ Global
 		{C21FBC9A-7B4A-424C-AA47-E741F0ACA763}.Release|x64.Build.0 = Release|x64
 		{C21FBC9A-7B4A-424C-AA47-E741F0ACA763}.Release|x86.ActiveCfg = Release|Win32
 		{C21FBC9A-7B4A-424C-AA47-E741F0ACA763}.Release|x86.Build.0 = Release|Win32
-		{C4CC8FFB-5C48-4B01-88DE-E611626B9DF4}.Debug|x64.ActiveCfg = Debug|x64
-		{C4CC8FFB-5C48-4B01-88DE-E611626B9DF4}.Debug|x64.Build.0 = Debug|x64
-		{C4CC8FFB-5C48-4B01-88DE-E611626B9DF4}.Debug|x86.ActiveCfg = Debug|Win32
-		{C4CC8FFB-5C48-4B01-88DE-E611626B9DF4}.Debug|x86.Build.0 = Debug|Win32
-		{C4CC8FFB-5C48-4B01-88DE-E611626B9DF4}.Release|x64.ActiveCfg = Release|x64
-		{C4CC8FFB-5C48-4B01-88DE-E611626B9DF4}.Release|x64.Build.0 = Release|x64
-		{C4CC8FFB-5C48-4B01-88DE-E611626B9DF4}.Release|x86.ActiveCfg = Release|Win32
-		{C4CC8FFB-5C48-4B01-88DE-E611626B9DF4}.Release|x86.Build.0 = Release|Win32
+		{FD3212C9-EC6D-4CC4-94D9-6EFF6F128194}.Debug|x64.ActiveCfg = Debug|x64
+		{FD3212C9-EC6D-4CC4-94D9-6EFF6F128194}.Debug|x64.Build.0 = Debug|x64
+		{FD3212C9-EC6D-4CC4-94D9-6EFF6F128194}.Debug|x86.ActiveCfg = Debug|Win32
+		{FD3212C9-EC6D-4CC4-94D9-6EFF6F128194}.Debug|x86.Build.0 = Debug|Win32
+		{FD3212C9-EC6D-4CC4-94D9-6EFF6F128194}.Release|x64.ActiveCfg = Release|x64
+		{FD3212C9-EC6D-4CC4-94D9-6EFF6F128194}.Release|x64.Build.0 = Release|x64
+		{FD3212C9-EC6D-4CC4-94D9-6EFF6F128194}.Release|x86.ActiveCfg = Release|Win32
+		{FD3212C9-EC6D-4CC4-94D9-6EFF6F128194}.Release|x86.Build.0 = Release|Win32
+		{201BDB86-51AC-43C1-AF0C-D41E0B910819}.Debug|x64.ActiveCfg = Debug|x64
+		{201BDB86-51AC-43C1-AF0C-D41E0B910819}.Debug|x64.Build.0 = Debug|x64
+		{201BDB86-51AC-43C1-AF0C-D41E0B910819}.Debug|x86.ActiveCfg = Debug|Win32
+		{201BDB86-51AC-43C1-AF0C-D41E0B910819}.Debug|x86.Build.0 = Debug|Win32
+		{201BDB86-51AC-43C1-AF0C-D41E0B910819}.Release|x64.ActiveCfg = Release|x64
+		{201BDB86-51AC-43C1-AF0C-D41E0B910819}.Release|x64.Build.0 = Release|x64
+		{201BDB86-51AC-43C1-AF0C-D41E0B910819}.Release|x86.ActiveCfg = Release|Win32
+		{201BDB86-51AC-43C1-AF0C-D41E0B910819}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,7 +60,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0853A967-2DF5-4993-9FCE-5A10815BB02B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{C21FBC9A-7B4A-424C-AA47-E741F0ACA763} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{C4CC8FFB-5C48-4B01-88DE-E611626B9DF4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FD3212C9-EC6D-4CC4-94D9-6EFF6F128194} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{201BDB86-51AC-43C1-AF0C-D41E0B910819} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {164731D1-F142-4204-BAF3-6D344AA09D87}

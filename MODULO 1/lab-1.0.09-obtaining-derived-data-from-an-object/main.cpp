@@ -60,16 +60,16 @@ public:
 int main()
 {
 	AdHocSquare* sq1 = new AdHocSquare(4);
-	std::cout << "Area 1 = " << (*sq1).get_area() << '\n';
+	std::cout << "Area = " << (*sq1).get_area() << '\n';
 
 	LazySquare* sq2 = new LazySquare(6);
-	std::cout << "Area 2 = " << (*sq2).get_area() << '\n';
+	std::cout << "Lazy Area = " << (*sq2).get_area() << '\n';
 
 	sq1->set_side(5);
 	sq2->set_side(7);
 
-	std::cout << "Area 1 = " << (*sq1).get_area() << '\n';
-	std::cout << "Area 2 = " << (*sq2).get_area() << '\n';
+	std::cout << "Area = " << (*sq1).get_area() << '\n';
+	std::cout << "Lazy Area = " << (*sq2).get_area() << '\n';
 
 	delete sq1;
 	delete sq2;
