@@ -15,7 +15,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-1.0.10-classes-and-obje
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-1.2.12-flight-booking-system-p1", "MODULO 1\lab-1.2.12-flight-booking-system-p1\lab-1.2.12-flight-booking-system-p1.vcxproj", "{929CEF84-8E56-4DE0-B90E-1FFFB62E679D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-1.2.13-flight-booking-system-p2", "lab-1.2.13-flight-booking-system-p2\lab-1.2.13-flight-booking-system-p2.vcxproj", "{AFFD03B6-924F-4A45-A3BF-9E365A014681}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-1.2.13-flight-booking-system-p2", "MODULO 1\lab-1.2.13-flight-booking-system-p2\lab-1.2.13-flight-booking-system-p2.vcxproj", "{D290CE61-77DD-4FF0-BCC3-7FAF9EB97BF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,14 +65,14 @@ Global
 		{929CEF84-8E56-4DE0-B90E-1FFFB62E679D}.Release|x64.Build.0 = Release|x64
 		{929CEF84-8E56-4DE0-B90E-1FFFB62E679D}.Release|x86.ActiveCfg = Release|Win32
 		{929CEF84-8E56-4DE0-B90E-1FFFB62E679D}.Release|x86.Build.0 = Release|Win32
-		{AFFD03B6-924F-4A45-A3BF-9E365A014681}.Debug|x64.ActiveCfg = Debug|x64
-		{AFFD03B6-924F-4A45-A3BF-9E365A014681}.Debug|x64.Build.0 = Debug|x64
-		{AFFD03B6-924F-4A45-A3BF-9E365A014681}.Debug|x86.ActiveCfg = Debug|Win32
-		{AFFD03B6-924F-4A45-A3BF-9E365A014681}.Debug|x86.Build.0 = Debug|Win32
-		{AFFD03B6-924F-4A45-A3BF-9E365A014681}.Release|x64.ActiveCfg = Release|x64
-		{AFFD03B6-924F-4A45-A3BF-9E365A014681}.Release|x64.Build.0 = Release|x64
-		{AFFD03B6-924F-4A45-A3BF-9E365A014681}.Release|x86.ActiveCfg = Release|Win32
-		{AFFD03B6-924F-4A45-A3BF-9E365A014681}.Release|x86.Build.0 = Release|Win32
+		{D290CE61-77DD-4FF0-BCC3-7FAF9EB97BF9}.Debug|x64.ActiveCfg = Debug|x64
+		{D290CE61-77DD-4FF0-BCC3-7FAF9EB97BF9}.Debug|x64.Build.0 = Debug|x64
+		{D290CE61-77DD-4FF0-BCC3-7FAF9EB97BF9}.Debug|x86.ActiveCfg = Debug|Win32
+		{D290CE61-77DD-4FF0-BCC3-7FAF9EB97BF9}.Debug|x86.Build.0 = Debug|Win32
+		{D290CE61-77DD-4FF0-BCC3-7FAF9EB97BF9}.Release|x64.ActiveCfg = Release|x64
+		{D290CE61-77DD-4FF0-BCC3-7FAF9EB97BF9}.Release|x64.Build.0 = Release|x64
+		{D290CE61-77DD-4FF0-BCC3-7FAF9EB97BF9}.Release|x86.ActiveCfg = Release|Win32
+		{D290CE61-77DD-4FF0-BCC3-7FAF9EB97BF9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,7 +83,7 @@ Global
 		{FD3212C9-EC6D-4CC4-94D9-6EFF6F128194} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{201BDB86-51AC-43C1-AF0C-D41E0B910819} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{929CEF84-8E56-4DE0-B90E-1FFFB62E679D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{AFFD03B6-924F-4A45-A3BF-9E365A014681} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D290CE61-77DD-4FF0-BCC3-7FAF9EB97BF9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {164731D1-F142-4204-BAF3-6D344AA09D87}
