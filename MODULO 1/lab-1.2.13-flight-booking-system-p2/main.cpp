@@ -5,8 +5,8 @@
 
 int main()
 {
-	int reserved = 0;
-	int	capacity = 0;
+	int reserved{};
+	int	capacity{};
 
 	std::cout << "Provide flight capacity: ";
 	std::cin >> capacity;
@@ -16,14 +16,30 @@ int main()
 
 	FlightBooking booking(1, capacity, reserved);
 
-	std::string command;
-	while (command != "quit")
+	while (true)
 	{
+		std::string command{};
 		booking.printStatus();
-		std::cout << "What would you like to do?: ";
-		std::getline(std::cin, command);
 
-		// handle the command
+		std::cout << "What would you like to do?: ";
+		std::cin >> command;
+
+		int numberOfSeats{};
+		if (command == "add")
+		{
+			
+			std::cin >> numberOfSeats;
+			booking.reserveSeats(numberOfSeats);
+		}
+		else if (command == "cancel")
+		{
+			std::cin >> numberOfSeats;
+			booking.cancelReservations(numberOfSeats);
+		}
+		else if (command == "quit")
+		{
+			break;
+		}
 	}
 	return EXIT_SUCCESS;
 }

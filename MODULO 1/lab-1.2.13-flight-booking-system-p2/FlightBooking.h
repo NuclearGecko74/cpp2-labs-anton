@@ -11,6 +11,9 @@ public:
 	FlightBooking(int id, int capacity, int reserved);
 
 	void printStatus();
+
+	bool reserveSeats(int numberOfSeats);
+	bool cancelReservations(int numberOfSeats);
 };
 
 
