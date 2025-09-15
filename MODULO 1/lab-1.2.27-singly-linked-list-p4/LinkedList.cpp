@@ -5,6 +5,7 @@
 LinkedList::LinkedList()
 {
 	head = nullptr;
+	length = 0;
 }
 
 LinkedList::~LinkedList()
@@ -26,23 +27,41 @@ void LinkedList::push_front(int value)
 	Node* temp = new Node(value);
 	temp->next = head;
 	head = temp;
+	length++;
 }
 
 bool LinkedList::pop_front(int& value)
 {
-	if (head == nullptr) { return false; }
+	if (isEmpty()) { return false; }
 
 	Node* temp = head;
 	value = temp->value;
 	head = head->next;
 	delete temp;
 
+	length--;
 	return true;
+}
+
+void LinkedList::push_back(int value)
+{
+	if (isEmpty())
+	{
+		head = new Node(value);
+		return;
+	}
+
+	Node* temp = head;
+	while (temp->next)
+	{
+		temp = temp->next;
+	}
+	temp->next = new Node(value);
 }
 
 bool LinkedList::pop_back(int& value)
 {
-	if (head == nullptr) {
+	if (isEmpty()) {
 		return false;
 	}
 
@@ -50,6 +69,7 @@ bool LinkedList::pop_back(int& value)
 		value = head->value;
 		delete head;
 		head = nullptr;
+		length--;
 		return true;
 	}
 
@@ -65,6 +85,7 @@ bool LinkedList::pop_back(int& value)
 	pre->next = nullptr;
 	delete temp;
 
+	length--;
 	return true;
 }
 

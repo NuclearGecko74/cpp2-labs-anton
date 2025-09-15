@@ -12,9 +12,9 @@ int main()
 	list.push_front(4);
 
 	int value = 0;
-	while (list.pop_front(value))
+	while (list.pop_back(value))
 	{
-		std::cout << value << '\n';
+		std::cout << value << std::endl;
 	}
 	return EXIT_SUCCESS;
 }

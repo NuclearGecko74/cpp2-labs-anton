@@ -5,44 +5,73 @@
 LinkedList::LinkedList()
 {
 	head = nullptr;
+	tail = nullptr;
+	length = 0;
 }
 
 LinkedList::~LinkedList()
 {
-	if (!isEmpty())
+	Node* current = head;
+	while (current) 
 	{
-		Node* temp = head;
-		while (head)
-		{
-			head = head->next;
-			delete temp;
-			temp = head;
-		}
+		Node* nextNode = current->next;
+		delete current;
+		current = nextNode;
 	}
+	head = nullptr;
+	tail = nullptr;
+	length = 0;
 }
 
 void LinkedList::push_front(int value)
 {
+	if (isEmpty())
+	{
+		head = new Node(value);
+		tail = head;
+		length++;
+		return;
+	}
+
 	Node* temp = new Node(value);
 	temp->next = head;
 	head = temp;
+	length++;
 }
 
 bool LinkedList::pop_front(int& value)
 {
-	if (head == nullptr) { return false; }
+	if (isEmpty()) { return false; }
 
 	Node* temp = head;
 	value = temp->value;
 	head = head->next;
 	delete temp;
 
+	length--;
 	return true;
+}
+
+void LinkedList::push_back(int value)
+{
+	Node* newNode = new Node(value);
+
+	if (head == nullptr) 
+	{
+		head = newNode;
+		tail = newNode;
+	}
+	else 
+	{
+		tail->next = newNode;
+		tail = newNode;
+	}
+	length++;
 }
 
 bool LinkedList::pop_back(int& value)
 {
-	if (head == nullptr) {
+	if (isEmpty()) {
 		return false;
 	}
 
@@ -50,6 +79,7 @@ bool LinkedList::pop_back(int& value)
 		value = head->value;
 		delete head;
 		head = nullptr;
+		length--;
 		return true;
 	}
 
@@ -64,20 +94,20 @@ bool LinkedList::pop_back(int& value)
 	value = temp->value;
 	pre->next = nullptr;
 	delete temp;
-
+	tail = pre;
+	length--;
 	return true;
 }
 
 void LinkedList::displayList() const
 {
-	if (isEmpty())
-	{
+	if (head == nullptr) {
 		std::cout << "List is empty\n";
+		return;
 	}
 
 	Node* temp = head;
-	while (temp)
-	{
+	while (temp) {
 		std::cout << temp->value << '\n';
 		temp = temp->next;
 	}

@@ -11,10 +11,5 @@ int main()
 	list.push_front(3);
 	list.push_front(4);
 
-	int value = 0;
-	while (list.pop_front(value))
-	{
-		std::cout << value << '\n';
-	}
 	return EXIT_SUCCESS;
 }
