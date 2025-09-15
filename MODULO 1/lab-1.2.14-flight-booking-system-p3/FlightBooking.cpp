@@ -35,7 +35,7 @@ bool FlightBooking::reserveSeats(int numberOfSeats)
 	int reserved{ this->reserved + numberOfSeats };
 	if (reserved > static_cast<int>(1.05 * capacity) || numberOfSeats <= 0)
 	{
-		std::cout << "Cannot perform this operation!\n";
+		std::cout << "Cannot perform this operation!";
 		return false;
 	}
 	this->reserved = reserved;
