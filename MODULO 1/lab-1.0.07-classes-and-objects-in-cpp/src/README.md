@@ -1,4 +1,4 @@
-[⬅️ Volver al inicio](../../)
+[⬅️ Volver al inicio](../../../)
 
 # Laboratorio 1.0.7: Classes and Objects in C++
 
