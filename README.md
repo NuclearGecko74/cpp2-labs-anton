@@ -26,7 +26,7 @@ Este repositorio contiene las soluciones y los reportes de los laboratorios corr
 
 | Tema | Laboratorios | Reporte |
 | :--- | :--- | :--- |
-| **Proyecto: Polimorfismo** | 2.2.2 - 2.2.4 | [Ver Reporte](./MODULO%202/lab-2.2.4-polymorphism-p3/) |
+| **Proyecto: Polimorfismo** | 2.2.2 - 2.2.4 | [Ver Reporte](./MODULO%202/lab-2.2.2-polymorphism-p3/) |
 | **Proyecto: Interfaces (Validadores)** | 2.3.5 - 2.3.7 | [Ver Reporte](./MODULO%202/lab-2.3.7-interfaces-virtual-functions-p3/) |
 | **Proyecto: Blackjack** | 2.3.8: Your Own Game | [Ver Reporte](./MODULO%202/lab-2.3.8-your-own-game/) |
 | **Proyecto: Composición** | 2.4.3 - 2.4.4 | [Ver Reporte](./MODULO%202/lab-2.4.4-composition-p2/) |
