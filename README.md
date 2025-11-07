@@ -38,7 +38,7 @@ Este repositorio contiene las soluciones y los reportes de los laboratorios corr
 | Tema | Laboratorios | Reporte |
 | :--- | :--- | :--- |
 | **Excepciones Básicas** | 3.0.8: Input Validation | [Ver Reporte](./MODULO%203/lab-3.0.8-exceptions-input-validation/) |
-| **Excepciones Personalizadas** | 3.0.9: Divide by Zero | [Ver Reporte](./MODULO%203/lab-3.0.9-exceptions-divide-by-zero/) |
+| **Excepciones Personalizadas** | 3.0.9: Divide by Zero | [Ver Reporte](./MODULO%203/lab-3.0.8-exceptions-divide-by-zero/) |
 | **Refactorización a Excepciones** | 3.1.8: Input Validation | [Ver Reporte](./MODULO%203/lab-3.1.8-exceptions-input-validation/) |
 | **Excepciones con Estado** | 3.1.9: Catch Block | [Ver Reporte](./MODULO%203/lab-3.1.9-exceptions-catch-block/) |
 | **Validación de Invariantes** | 3.1.10 - 3.1.11 | [Ver Reporte](./MODULO%203/lab-3.1.11-simple-checks-p2/) |
