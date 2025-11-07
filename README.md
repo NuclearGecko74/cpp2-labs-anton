@@ -41,7 +41,7 @@ Este repositorio contiene las soluciones y los reportes de los laboratorios corr
 | **Excepciones Personalizadas** | 3.0.9: Divide by Zero | [Ver Reporte](./MODULO%203/lab-3.0.8-exceptions-divide-by-zero/) |
 | **Refactorización a Excepciones** | 3.1.8: Input Validation | [Ver Reporte](./MODULO%203/lab-3.1.8-exceptions-input-validation/) |
 | **Excepciones con Estado** | 3.1.9: Catch Block | [Ver Reporte](./MODULO%203/lab-3.1.9-exceptions-catch-block/) |
-| **Validación de Invariantes** | 3.1.10 - 3.1.11 | [Ver Reporte](./MODULO%203/lab-3.1.10-simple-checks-p2/) |
+| **Validación de Invariantes** | 3.1.10 - 3.1.11 | [Ver Reporte](./MODULO%203/lab-3.1.10-exceptions-simple-checks-p2/) |
 | **Excepciones de E/S (Archivos)** | 3.2.16: File Checks | [Ver Reporte](./MODULO%203/lab-3.2.16-exceptions-file-checks/) |
 | **Excepciones en Constructores (String)** | 3.2.17: Checking Strings | [Ver Reporte](./MODULO%203/lab-3.2.17-exceptions-checking-strings/) |
 | **Excepciones (Info Contextual)** | 3.4.12: Including Information | [Ver Reporte](./MODULO%203/lab-3.4.12-exceptions-including-information-in-exceptions/) |
