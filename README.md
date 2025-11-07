@@ -4,7 +4,7 @@ Este repositorio contiene las soluciones y los reportes de los laboratorios corr
 
 ---
 
-## 📋 Índice de Laboratorios
+## 📋 Módulo 1: Fundamentos de POO y Estructuras de Datos
 
 | Tema | Laboratorios | Reporte |
 | :--- | :--- | :--- |
@@ -19,3 +19,30 @@ Este repositorio contiene las soluciones y los reportes de los laboratorios corr
 | **Fundamentos de Herencia** | 1.2.22 - 1.2.23 | [Ver Reporte Consolidado](./MODULO%201/lab-1.2.23-inheritance-basics-p2/README.md) |
 | **Proyecto: Lista Simplemente Enlazada** | 1.2.24 - 1.2.30 | [Ver Reporte Consolidado](./MODULO%201/lab-1.2.30-singly-linked-list-p7/README.md) |
 | **Proyecto: Lista Doblemente Enlazada**| 1.2.31: Doubly linked list | [Ver Reporte](./MODULO%201/lab-1.2.31-doubly-linked-list/README.md) |
+
+---
+
+## 📋 Módulo 2: Polimorfismo, Interfaces y Composición
+
+| Tema | Laboratorios | Reporte |
+| :--- | :--- | :--- |
+| **Proyecto: Polimorfismo** | 2.2.2 - 2.2.4 | [Ver Reporte](./MODULO%202/lab-2.2.4-polymorphism-p3/) |
+| **Proyecto: Interfaces (Validadores)** | 2.3.5 - 2.3.7 | [Ver Reporte](./MODULO%202/lab-2.3.7-interfaces-virtual-functions-p3/) |
+| **Proyecto: Blackjack** | 2.3.8: Your Own Game | [Ver Reporte](./MODULO%202/lab-2.3.8-your-own-game/) |
+| **Proyecto: Composición** | 2.4.3 - 2.4.4 | [Ver Reporte](./MODULO%202/lab-2.4.4-composition-p2/) |
+
+---
+
+## 📋 Módulo 3: Manejo de Excepciones
+
+| Tema | Laboratorios | Reporte |
+| :--- | :--- | :--- |
+| **Excepciones Básicas** | 3.0.8: Input Validation | [Ver Reporte](./MODULO%203/lab-3.0.8-exceptions-input-validation/) |
+| **Excepciones Personalizadas** | 3.0.9: Divide by Zero | [Ver Reporte](./MODULO%203/lab-3.0.9-exceptions-divide-by-zero/) |
+| **Refactorización a Excepciones** | 3.1.8: Input Validation | [Ver Reporte](./MODULO%203/lab-3.1.8-exceptions-input-validation/) |
+| **Excepciones con Estado** | 3.1.9: Catch Block | [Ver Reporte](./MODULO%203/lab-3.1.9-exceptions-catch-block/) |
+| **Validación de Invariantes** | 3.1.10 - 3.1.11 | [Ver Reporte](./MODULO%203/lab-3.1.11-simple-checks-p2/) |
+| **Excepciones de E/S (Archivos)** | 3.2.16: File Checks | [Ver Reporte](./MODULO%203/lab-3.2.16-exceptions-file-checks/) |
+| **Excepciones en Constructores (String)** | 3.2.17: Checking Strings | [Ver Reporte](./MODULO%203/lab-3.2.17-exceptions-checking-strings/) |
+| **Excepciones (Info Contextual)** | 3.4.12: Including Information | [Ver Reporte](./MODULO%203/lab-3.4.12-exceptions-including-information-in-exceptions/) |
+| **Excepciones (Lógica de App)** | 3.4.13: Using in Program | [Ver Reporte](./MODULO%203/lab-3.4.13-exceptions-using-in-program/) |
