@@ -99,7 +99,6 @@ int main()
 
 		std::cout << a.getValue() << std::endl;
 		std::cout << b.getValue() << "." << std::endl;
-
 	}
 	catch (const ValueException& e)
 	{
