@@ -14,39 +14,39 @@ public:
 
 	void pop()
 	{
-		m_buffer.pop_back();
+		if (!m_buffer.empty())
+		{
+			m_buffer.pop_back();
+		}
 	}
 
-	std::expected<float, std::string> top()
+	float top()
 	{
-		try 
+		if (m_buffer.empty())
 		{
-			if (m_buffer.empty())
-			{
-				throw std::runtime_error("stack is empty.");
-			}
-			return m_buffer.back();
+			throw std::runtime_error("stack is empty.");
 		}
-		catch (const std::exception& ex)
-		{
-			std::cout << "Exception: " << ex.what() << std::endl;
-		}
-		return std::unexpected("Stack is empty error");
+		return m_buffer.back();
 	}
 
 private:
 	std::vector<float> m_buffer{};
 
-	friend std::ostream& operator<<(std::ostream& os, const Stack& stack);
+	friend std::ostream& operator<<(std::ostream& os, Stack& stack);
 	friend std::istream& operator>>(std::istream& is, Stack& stack);
 };
 
-std::ostream& operator<<(std::ostream& os, const Stack& stack)
+std::ostream& operator<<(std::ostream& os, Stack& stack)
 {
-	int stackSize = stack.m_buffer.size();
-	for (int i = stackSize - 1; i >= 0; i--)
+	try
 	{
-		os << stack.m_buffer[i] << '\n';
+		float value = stack.top();
+		os << value << std::endl;
+		stack.pop();
+	}
+	catch (const std::exception& e)
+	{
+		os << "Exception: " << e.what() << std::endl;
 	}
 	return os;
 }
@@ -61,9 +61,23 @@ std::istream& operator>>(std::istream& is, Stack& stack)
 int main()
 {
 	Stack stack;
-	std::cin >> stack;
-	std::cin >> stack;
-	std::cin >> stack;
+	int count;
 
-	std::cout << stack;
+	std::cout << "Cuantos elementos deseas agregar: ";
+	std::cin >> count;
+
+	for (int i = 0; i < count; i++) 
+	{
+		std::cin >> stack;
+	}
+
+	std::cout << "Cuantos elementos deseas sacar: ";
+	std::cin >> count;
+
+	for (int i = 0; i < count; i++)
+	{
+		std::cout << stack;
+	}
+
+	return 0;
 }
