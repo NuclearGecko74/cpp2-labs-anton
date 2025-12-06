@@ -103,6 +103,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-4.0.9-non-natural-way-o
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-4.1.4-enums-representing-values", "MODULO 4\lab-4.1.4-enums-representing-values\lab-4.1.4-enums-representing-values.vcxproj", "{DF40545E-F1FA-4137-AE56-38E664F39263}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-4.2.27-operators-iostream", "MODULO 4\lab-4.2.27-operators-iostream\lab-4.2.27-operators-iostream.vcxproj", "{797880C7-7380-4A16-9C1C-4C696EC69A84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -479,6 +481,14 @@ Global
 		{DF40545E-F1FA-4137-AE56-38E664F39263}.Release|x64.Build.0 = Release|x64
 		{DF40545E-F1FA-4137-AE56-38E664F39263}.Release|x86.ActiveCfg = Release|Win32
 		{DF40545E-F1FA-4137-AE56-38E664F39263}.Release|x86.Build.0 = Release|Win32
+		{797880C7-7380-4A16-9C1C-4C696EC69A84}.Debug|x64.ActiveCfg = Debug|x64
+		{797880C7-7380-4A16-9C1C-4C696EC69A84}.Debug|x64.Build.0 = Debug|x64
+		{797880C7-7380-4A16-9C1C-4C696EC69A84}.Debug|x86.ActiveCfg = Debug|Win32
+		{797880C7-7380-4A16-9C1C-4C696EC69A84}.Debug|x86.Build.0 = Debug|Win32
+		{797880C7-7380-4A16-9C1C-4C696EC69A84}.Release|x64.ActiveCfg = Release|x64
+		{797880C7-7380-4A16-9C1C-4C696EC69A84}.Release|x64.Build.0 = Release|x64
+		{797880C7-7380-4A16-9C1C-4C696EC69A84}.Release|x86.ActiveCfg = Release|Win32
+		{797880C7-7380-4A16-9C1C-4C696EC69A84}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -530,6 +540,7 @@ Global
 		{EB9DB6C7-09BA-4DFC-A920-10996212E11E} = {2309B9B0-80D6-4423-8049-DB1CD68D082A}
 		{DF7DFD3C-0CBD-4A2B-99D7-4B92D0E91B29} = {2309B9B0-80D6-4423-8049-DB1CD68D082A}
 		{DF40545E-F1FA-4137-AE56-38E664F39263} = {2309B9B0-80D6-4423-8049-DB1CD68D082A}
+		{797880C7-7380-4A16-9C1C-4C696EC69A84} = {2309B9B0-80D6-4423-8049-DB1CD68D082A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {164731D1-F142-4204-BAF3-6D344AA09D87}
